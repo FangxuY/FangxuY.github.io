@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'Fangxu Yuan'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -107,6 +107,8 @@ extensions:
     branch: main
     local_backend: false
   academicons:
+    enable: true
+  fab:
     enable: true
 
 # Security
