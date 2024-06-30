@@ -85,7 +85,7 @@ social:
     link: https://github.com/FangxuY
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/fangxuy/
   - icon: cv
     icon_pack: ai
     link: uploads/Fangxu Yuan.pdf

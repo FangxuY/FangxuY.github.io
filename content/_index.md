@@ -31,14 +31,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Assistant
-          company: Xiamen University
+        - title: Graduate Reasearch Assistant
+          company: Link Lab, University of Virginia
           # company_url: ''
-          company_logo: XMU
-          location: Xiamen
-          date_start: '2018-09-01'
-          date_end: '2021-02-01'
-          description: Laboratory of Sensing and Computing for Smart City
+          company_logo: UVA
+          location: Charlottesville, VA
+          date_start: '2024-06-17'
+          date_end: ''
+          description: Smart city, Medicine adherence, digital mental health
         - title: Independent Project
           company: Hong Kong University of Science and Technology
           # company_url: ''
@@ -47,6 +47,14 @@ sections:
           date_start: '2021-09-01'
           date_end: '2022-06-30'
           description: Indoor localization and Pervasive Positioning Standard for Fingerprint-based and Proximity-based Systems
+        - title: Research Assistant
+          company: Xiamen University
+          # company_url: ''
+          company_logo: XMU
+          location: Xiamen
+          date_start: '2018-09-01'
+          date_end: '2021-02-01'
+          description: Laboratory of Sensing and Computing for Smart City
     design:
       columns: '2'
   - block: accomplishments
