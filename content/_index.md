@@ -184,7 +184,7 @@ sections:
         folders:
           - publication
         # change it to false when journal
-        featured_only: true
+        featured_only: false
     design:
       columns: '2'
       view: citation
