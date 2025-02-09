@@ -38,7 +38,7 @@ sections:
           location: Charlottesville, VA
           date_start: '2024-06-17'
           date_end: ''
-          description: Smart city, Medicine adherence, digital mental health
+          description: Smart city, Medicine adherence, Digital mental health
         - title: Independent Project
           company: Hong Kong University of Science and Technology
           # company_url: ''
