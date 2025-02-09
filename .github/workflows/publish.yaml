@@ -1,64 +1,42 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.123.3'
+  WC_HUGO_VERSION: '0.123.3'  # 你的 Hugo 版本
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
+    branches: ["main"]        # 每次推送到 main 分支都会触发部署
+  workflow_dispatch:          # 允许手动触发工作流
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  contents: write             # 允许 GitHub Actions 推送到 main 分支
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0       # 获取完整 Git 历史记录，确保 .GitInfo 正常工作
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
-          extended: true
+          extended: true       # 使用 Hugo 扩展版（支持 SASS 等功能）
 
       - name: Build with Hugo
-        run: hugo --minify
+        run: hugo --minify -d docs  # Hugo 构建并将静态文件输出到 docs 文件夹
 
       - name: Verify build output
-        run: ls -la ./public
+        run: ls -la docs           # 确认 docs 文件夹已正确生成内容
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4  # 替换为 upload-artifact
-        with:
-          name: github-pages
-          path: ./public
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages  # 下载与上传的 artifact 名称一致
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: peaceiris/actions-gh-pages@v4  # 使用 peaceiris 的 gh-pages Action
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./github-pages  # 对应下载的 artifact 目录
+      - name: Commit and Push to main branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Deploy website to GitHub Pages 🚀" || echo "No changes to commit"
+          git push origin main
