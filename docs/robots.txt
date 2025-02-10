@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://fangxuy.github.io/sitemap.xml
