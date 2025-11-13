@@ -82,24 +82,25 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  - block: collection
-    id: featured
+  - block: markdown
+    id: news
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
+      title: Recent News
+      subtitle: ''
+      text: |-
+        - **Dec 2025** – *Multimodal Sensing and Modeling of Endocrine Therapy Adherence in Breast Cancer Survivors* accepted to IMWUT for the December issue.
+        - **Nov 2025** – Presented the Breast Cancer medicine adherence project at The Commonwealth of Virginia Cancer Research Conference (CVCRC).
+        - **Oct 2025** – Showcased our medicine adherence poster at the UVA 2025 AI/ML Resource Fair.
+        - **Sep 2025** – Presented a poster on Breast Cancer medicine adherence at *Frontiers in Clinical AI: Advancing Medical Innovation Through Artificial Intelligence and Machine Learning*.
+        - **Jun 2024** – Started the Systems Engineering Ph.D. program at UVA and joined Link Lab as a graduate research assistant.
+        - **Oct 2023** – Wrapped up my time as a Software Development Engineer at Amazon Web Services.
+        - **Mar 2022** – Began a Software Development Engineer internship with Amazon Web Services in Hong Kong.
+        - **Apr 2021** – Joined Alibaba Cloud as a Testing Development Intern working on large-scale distributed systems.
     design:
-      columns: '2'
-      view: card
+      columns: '1'
   - block: collection
     content:
       title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
       filters:
         folders:
           - publication
