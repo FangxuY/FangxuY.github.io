@@ -93,8 +93,9 @@ sections:
         - **Oct 2025** – Showcased our medicine adherence poster at the UVA 2025 AI/ML Resource Fair.
         - **Sep 2025** – Presented a poster on Breast Cancer medicine adherence at *Frontiers in Clinical AI: Advancing Medical Innovation Through Artificial Intelligence and Machine Learning*.
         - **Jun 2024** – Started the Systems Engineering Ph.D. program at UVA and joined Link Lab as a graduate research assistant.
-        - **Oct 2023** – Wrapped up my time as a Software Development Engineer at Amazon Web Services.
-        - **Mar 2022** – Began a Software Development Engineer internship with Amazon Web Services in Hong Kong.
+        - **Oct 2023** – Wrapped up my time as a Software Development Engineer at AWS
+        - **Nov 2022** – Received my Master degree from HKUST and started working as a Software Development Engineer at AWS
+        - **Mar 2022** – Began a Software Development Engineer internship with AWS in Beijing.
         - **Apr 2021** – Joined Alibaba Cloud as a Testing Development Intern working on large-scale distributed systems.
     design:
       columns: '1'
