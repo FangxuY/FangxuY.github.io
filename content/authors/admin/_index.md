@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student in Systems Engineering
+role: MS Student in Systems Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -36,9 +36,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Systems Engineering
+    - course: MS in Systems Engineering
       institution: Univeristy of Virginia
-      year: 2024 - now
+      year: 2024 - 2026(Dec)
     - course: MSc in Information Technology
       institution: Hong Kong University of Science and Technology
       year: 2021 - 2022
@@ -94,5 +94,5 @@ social:
 highlight_name: true
 ---
 
-I am currently a Ph.D. student of Systems Engineering at University of Virginia, under the supervision of Prof. [Laura E Barnes](https://engineering.virginia.edu/faculty/laura-barnes-0). Before that I got my Master degree in Information Technology from School of Engineering, HKUST, where I did my independent project about indoor localization under Prof. [Shueng-Han Gary Chan](https://www.cse.ust.hk/~gchan/) 's supervision. Previously I obtained my Bachelor degree from School of Infomatics, Xiamen University, where I have spent wonderful times as a research assistant with Prof. [Longbiao Chen](https://longbiao.crowdsensing.cn/).
+I am currently a MS student Systems Engineering at University of Virginia, working with Prof. [Laura E Barnes](https://engineering.virginia.edu/faculty/laura-barnes-0) and expecting to graduate in December 2026. I am actively seeking a summer internship and a full-time position upon graduation. Previously I received my Master degree in Information Technology from School of Engineering, HKUST, where I led an indoor localization project under Prof. [Shueng-Han Gary Chan](https://www.cse.ust.hk/~gchan/)'s supervision, and obtained my Bachelor degree from School of Infomatics, Xiamen University, collaborating closely with Prof. [Longbiao Chen](https://longbiao.crowdsensing.cn/).
 {style="text-align: justify;"}

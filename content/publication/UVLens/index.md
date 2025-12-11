@@ -32,8 +32,8 @@ publishDate: '2021-06-21T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
-publication_short: In *IMWUT*
+publication: "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*"
+publication_short: "*IMWUT*"
 
 abstract: Urban villages refer to the residential areas lagging behind the rapid urbanization process in many developing countries. These areas are usually with overcrowded buildings, high population density, and low living standards, bringing potential risks of public safety and hindering the urban development. Therefore, it is crucial for urban authorities to identify the boundaries of urban villages and estimate their resident and floating populations so as to better renovate and manage these areas. Traditional approaches, such as field surveys and demographic census, are time consuming and labor intensive, lacking a comprehensive understanding of urban villages. Against this background, we propose a two-phase framework for urban village boundary identification and population estimation. Specifically, based on heterogeneous open government data, the proposed framework can not only accurately identify the boundaries of urban villages from large-scale satellite imagery by fusing road networks guided patches with bike-sharing drop-off patterns, but also accurately estimate the resident and floating populations of urban villages with a proposed multi-view neural network model. We evaluate our method leveraging real-world datasets collected from Xiamen Island. Results show that our framework can accurately identify the urban village boundaries with an IoU of 0.827, and estimate the resident population and floating population with R2 of 0.92 and 0.94 respectively, outperforming the baseline methods. We also deploy our system on the Xiamen Open Government Data Platform to provide services to both urban authorities and citizens.
 
